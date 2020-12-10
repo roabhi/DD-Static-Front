@@ -1,0 +1,196 @@
+/*
+ * HTML5 Boilerplate
+ *
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+
+/* =============================================================================
+   HTML5 element display
+   ========================================================================== */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+audio[controls], canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+
+
+/* =============================================================================
+   Base
+   ========================================================================== */
+
+/*
+ * 1. Correct text resizing oddly in IE6/7 when body font-size is set using em units
+ *    http://clagnut.com/blog/348/#c790
+ * 2. Force vertical scrollbar in non-IE
+ * 3. Remove Android and iOS tap highlight color to prevent entire container being highlighted
+ *    www.yuiblog.com/blog/2010/10/01/quick-tip-customizing-the-mobile-safari-tap-highlight-color/
+ * 4. Prevent iOS text size adjust on device orientation change, without disabling user zoom
+ *    www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/
+ */
+
+html { font-size: 100%; /*overflow-y: scroll;*/ -webkit-overflow-scrolling: touch; -webkit-tap-highlight-color: rgba(0,0,0,0); -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+
+body { margin: 0; font-size: 13px; line-height: 1.231; }
+
+body, button, input, select, textarea { font-family: sans-serif; color: #222; }
+
+/* 
+ * These selection declarations have to be separate
+ * No text-shadow: twitter.com/miketaylr/status/12228805301
+ * Also: hot pink!
+ */
+
+::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
+::selection { background: #fe57a1; color: #fff; text-shadow: none; }
+
+/*
+
+	From Co-drops
+
+*/
+
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+
+/* 
+ * These selection declarations have to be separate
+ * No text-shadow: twitter.com/miketaylr/status/12228805301
+ * Also: hot pink!
+ */
+
+::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
+::selection { background: #fe57a1; color: #fff; text-shadow: none; }
+
+
+
+#grid-system {
+	width:100%;
+	height:2000%;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:1000;
+	pointer-events:none;
+	background:url('../img/baseline.svg') top left repeat, url('../img/grid.svg') top center repeat-y;
+}
+
+
+/*
+*	================================================================
+*	GRID SYSTEM - DIVIDERS
+*   
+*	Invisible separators to space vertically elements so we can make
+*   all other elements agnostic on the y axis
+*
+*
+*	blocks are referring to full 24px baseline separations where
+*	divider-y-two-blocks equals a 48px space on the y axis
+*
+*   while divider-y-two-pixels referes for example a separation of 
+*	just two pixels on the y axis based on the full 24px height
+*	block default height
+*
+*	================================================================
+*/	
+
+div.divider-y {
+	width:100%;
+	padding:0;
+	margin:0;
+	display:block;
+} /* Define common width */
+
+
+
+/*	PIXELS
+*	================================================================ */	
+
+div.divider-y-half-pixels {
+	height:calc(1.500rem * 0.0208333333333333);
+} /*  0.5px */
+
+div.divider-y-one-pixels {
+	height:calc(1.500rem * 0.0416666666666667);
+} /*  1px */
+
+div.divider-y-two-pixels {
+	height:calc(1.500rem * 0.08333333333333333);
+} /*  2px */
+
+div.divider-y-three-pixels {
+	height:calc(1.500rem * 0.125);
+} /*  3px */
+
+div.divider-y-four-pixels {
+	height:calc(1.500rem * 0.1666666666666667);
+} /*  4px */
+
+div.divider-y-five-pixels {
+	height:calc(1.500rem * 0.2083333333333333);
+} /* 5px */
+
+div.divider-y-six-pixels {
+	height:calc(1.500rem * 0.25);
+} /*  6px */
+
+div.divider-y-seven-pixels {
+	height:calc(1.500rem * 0.2916666666666667);
+} /*  7px */
+
+div.divider-y-eight-pixels {
+	height:calc(1.500rem * 0.3333333333333333);
+} /*  8px */
+
+div.divider-y-nine-pixels {
+	height:calc(1.500rem * 0.375);
+} /*  9px */
+
+
+
+
+/*	BLOCKS
+*	================================================================ */	
+
+div.divider-y-half-blocks {
+	height:calc(1.500rem * 0.5);
+} /*  12px */
+
+div.divider-y-one-blocks {
+	height:calc(1.500rem * 1);
+} /*  24px */
+
+div.divider-y-two-blocks {
+	height:calc(1.500rem * 2);
+} /*  48px */
+
+div.divider-y-three-blocks {
+	height:calc(1.500rem * 3);
+} /*  72px */
+
+div.divider-y-four-blocks {
+	height:calc(1.500rem * 4);
+} /*  96px */
+
+div.divider-y-five-blocks {
+	height:calc(1.500rem * 5);
+} /*  120px */
+
+div.divider-y-six-blocks {
+	height:calc(1.500rem * 6);
+} /*  144px */
+
+div.divider-y-seven-blocks {
+	height:calc(1.500rem * 7);
+} /*  168px */
+
+div.divider-y-eight-blocks {
+	height:calc(1.500rem * 8);
+} /*  192px */
+
+div.divider-y-nine-blocks {
+	height:calc(1.500rem * 9);
+} /*  216px */

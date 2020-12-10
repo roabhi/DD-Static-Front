@@ -1,0 +1,888 @@
+/*
+*	================================================================
+*	OWN STYLES 4 CUSTOM <divs>
+*
+*	================================================================
+*/
+
+
+/*	COMMON STYLES
+*	================================================================ */
+div.extra-width {
+	max-width:80.000rem;
+	width:100%;
+	margin:0 auto;
+
+} /* divs holding the 1280px width panels */
+
+div.quoted-gray-bg {
+	position:relative;
+	max-width:56.875rem;
+	width:100%;
+	margin:0;
+	padding:0 0 0 5.313rem;
+	background:#f2f2f2;
+
+} /* divs holding 920px wide content under a gray background. Used under que es*/
+
+
+div.bg-holder {
+	z-index:0;
+	pointer-events:none;
+	position:absolute;
+	top:0;
+	left:0;
+	background-repeat:no-repeat;
+	background-color:transparent;
+
+
+} /* divs holding background images for full width of page bootstrap class .container-fluid*/
+
+
+div.dd-rounded-void-btn {
+	display:inline-block;
+  	vertical-align:middle;
+  	height:3.000rem;
+	width:10.750rem;
+	border-radius:3rem;
+	border:0.125rem #f1f1f1 solid;
+	font-family:'Montserrat', sans-serif;
+	font-weight:700;
+	letter-spacing:0.125rem;
+	font-size:0.750rem;
+	padding:0 1.500rem 0 1.500rem;
+	margin:2.750rem 0 0 0;
+}
+
+div.dd-rounded-void-btn.dark {
+	border-color:#d8d8d8;
+} /* darker color on white backgrounds */
+
+
+div.dd-rounded-void-btn.call {
+	display:block;
+	border-color:#4ba8bc;
+	background:#4ba8bc none;
+	margin:2.150rem 0 0 0;
+} /* purple color on call to action backgrounds */
+
+
+div.dd-rounded-void-btn a {
+	text-decoration:none;
+	color:inherit;
+	text-transform:uppercase;
+	overflow:hidden;
+	display:inline-block;
+	vertical-align:middle;
+	outline:none;
+	border:none;
+	width:100%;
+	height:100%;
+
+}
+
+div.dd-rounded-void-btn a span {
+	backface-visibility: hidden;
+  	display: inline-block;
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+	vertical-align: middle;
+	width:100%;
+	height:100%;
+	transform: translateY(0);
+	transition: transform 0.25s ease;
+	color:#f1f1f1;
+	padding:0.750rem 0 0 0;
+}
+
+div.dd-rounded-void-btn.dark a span {
+	color:#2d2d2d;
+}/* darker color on white backgrounds */
+
+div.dd-rounded-void-btn a span:before {
+	content: attr(data-hover);
+	width:100%;
+	height:100%;
+	position:absolute;
+	left:0;
+	top:100%;
+	color:#f1f1f1;
+	padding:0.750rem 0 0 0;
+}
+
+div.dd-rounded-void-btn.dark a span:before {
+	color:#2d2d2d;
+}/* darker color on white backgrounds */
+
+div.dd-rounded-void-btn a:hover span {
+	transform: translateY(-100%);
+}
+
+div.rev {
+	flex-direction:row-reverse !important;
+}
+
+
+h1.bigger-header-long {
+	font-family:'Inter', sans-serif;
+	padding:0;
+	margin:0;
+	font-size:3.750rem;
+	line-height:4.500rem;
+	font-weight:700;
+	color:#212121;
+}
+
+h1.big-sub-header {
+	font-family:'Inter', sans-serif;
+	padding:0;
+	/*
+	margin:12.000rem 0 11.575rem 0;
+	*/
+
+	margin:0;
+	font-size:3.750rem;
+	line-height:4.625rem;
+	color:#c2cbce;
+	font-weight:700;
+}
+
+
+h3.informer-big-text {
+	font-family:'Inter', sans-serif;
+	padding:0;
+	margin:0;
+	font-size:2rem;
+	line-height:3rem;
+	color:#2d2d2d;
+}
+
+
+h4.small-heading-gray {
+	text-transform:uppercase;
+	color:#c2cbce;
+	font-size:1rem;
+	font-family:'Inter', sans-serif;
+	font-weight:700;
+	margin:0;
+	padding:0;
+	/*
+	margin:6.636rem 0 5.036rem 0;
+	*/
+
+	margin:0;
+}
+
+h6.smaller-heading-gray {
+	color:#c2cbce;
+	font-size:1rem;
+	font-family:'Inter', sans-serif;
+	font-weight:700;
+	/*
+	margin:4.313rem 0 3.535rem 0;
+	*/
+
+	margin:0;
+	padding:0;
+}
+
+h6.smaller-detail-gray {
+	color:#c2cbce;
+	font-size:0.750rem;
+	font-family:'Inter', sans-serif;
+	font-weight:700;
+	padding:0;
+	margin:0;
+}
+
+p.default {
+	padding:0;
+	margin:0;
+	line-height:1.500rem;
+	font-family:'Inter', sans-serif;
+	font-size:1rem;
+	color#2d2d2d;
+}
+
+
+
+/*	CALL TO ACTION
+*	================================================================ */
+
+div.call-to-action--hero {
+	height:25.438rem;
+	background:transparent url('../img/call-to-action-bg.jpg') no-repeat center center;
+	font-family:'Inter', sans-serif;
+}
+
+
+
+div.call-to-action--hero---title h2 {
+	margin:0;
+	padding:9.813rem 0 0 0;
+	font-size:3.750rem;
+	font-weight:700;
+	color:#fff;
+
+}
+
+
+/*	FOOTER
+*	================================================================ */
+
+footer div.footer-content {
+	max-width:57.500rem;
+	width:100%;
+	margin:5.250rem auto 0 auto;
+}
+
+footer div.footer-content>div {
+	display:inline-block;
+	vertical-align:top;
+	position:relative;
+	width:11.875rem;
+	font-family:'Inter', sans-serif;
+}
+
+
+
+
+footer div.footer-content>div h5 {
+	margin:0;
+	padding:0;
+	color:#c2cbce;
+	letter-spacing:0.125rem;
+	text-transform:uppercase;
+	font-weight:700;
+	font-size:0.750rem;
+}
+
+footer div.footer-content>div ul {
+	list-style:none;
+	padding:0;
+	margin:1.813rem 0 0 0;
+	color:#2d2d2d;
+	font-size:0.750rem;
+	line-height:1.500rem;
+
+}
+
+footer div.footer-content>div ul a {
+	color:inherit;
+}
+
+footer div.footer-content div:last-of-type {
+	width:15.938rem;
+	margin:0 0 0 5.938rem;
+}
+
+footer div.footer-content div:last-of-type h5 {
+	padding:0 0 0 1.563rem;
+}
+
+footer div.footer-content div:last-of-type form {
+	position:relative;
+	margin:2.855rem 0 0 0;
+}
+
+
+footer div.footer-content div:last-of-type form input {
+	border-radius:3rem;
+	border:0.125rem #f1f1f1 solid;
+	font-size:0.750rem;
+	padding:1.355rem 0 1.355rem 0.750rem;
+}
+
+
+footer div.footer-content div:last-of-type form button {
+	position:absolute;
+	top:0.250rem;
+	right:0.250rem;
+	width:2.438rem;
+	height:2.438rem;
+	border-radius:50%;
+	background:#fda830 url('../img/custom-icons/footer-mail-btn.svg') no-repeat center center;
+	border-color:#fda830;
+}
+
+footer div.footer-content p.footer-legend {
+	font-family:'Inter', sans-serif;
+	font-weight:700;
+	color:#2d2d2d;
+	padding:6.036rem 0;
+	font-size:0.875rem;
+	margin:0;
+}
+
+
+
+/*	NAVIGATION
+*	================================================================ */
+
+div.logo-nav span.logo-nav--img {
+	display:block;
+	width:2.375rem;
+	height:2.188rem;
+	background:transparent url('../img/logo-nav.svg') no-repeat top left;
+}
+
+ul.my-nav {
+	text-transform:uppercase;
+	font-family:'Montserrat', sans-serif;
+	font-size:0.750rem;
+}
+
+ul.my-nav li {
+	margin:0 1rem;
+}
+
+ul.my-nav li:last-of-type {
+	margin-right:0;
+}
+
+ul.my-nav li:last-of-type span {
+	cursor:pointer;
+}
+
+ul.my-nav li a {
+	letter-spacing:0.123rem;
+	color:inherit;
+}
+
+/*
+*	================================================================
+*	STYLES FOR PAGES
+*
+*	================================================================
+*/
+
+
+/*	LANDING PAGE
+*	================================================================ */
+
+div.landing-block-header--hero {
+	height:39.000rem;
+	background:transparent url('../img/landing-header-bg.jpg') no-repeat center center;
+	font-family:'Inter', sans-serif;
+	/*
+	box-shadow: 0 0.625rem 1.125rem rgba(0,0,0,0.05), 0 0.313rem 0.313rem rgba(0,0,0,0.13);
+	*/
+}
+
+div.landing-block-header--hero---title h2 {
+	font-size:5.375rem;
+	line-height:4.500rem;
+	font-weight:900;
+	color:#f1f1f1;
+	margin:0;
+	padding:7.838rem 0 3.063rem 0;
+}
+
+div.landing-block-header--hero---subtitle {
+	color:#f1f1f1;
+}
+
+div.landing-block-header--hero---subtitle h4 {
+	font-size:1.125rem;
+	margin:0;
+	padding:0;
+	font-weight:700;
+	line-height:1.500rem;
+}
+
+div.landing-block-header--hero---subtitle h4 span {
+	font-size:8rem;
+	top:1rem;
+	right:-4rem;
+}
+
+ul.landing-block-header--social {
+	list-style:none;
+	padding:0;
+	margin:0;
+	right:5.313rem;
+	bottom:3.188rem;
+}
+
+ul.landing-block-header--social li.landing-block-header--social---youtube {
+	width:1.500rem;
+	height:1.125rem;
+	background:transparent url('../img/custom-icons/YouTube.svg') no-repeat center center;
+}
+
+div.landing-block-informer {
+	margin-top:9.600rem;
+	margin-bottom:9.855rem;
+}
+
+div.landing-block-informer--hero {
+	height:37.500rem;
+	background:transparent url('../img/dd-info-landing-panel-background.jpg') no-repeat center center;
+	font-family:'Inter', sans-serif;
+	/*
+	box-shadow: 0 0.625rem 1.125rem rgba(0,0,0,0.05), 0 0.313rem 0.313rem rgba(0,0,0,0.13);
+	*/
+}
+
+div.landing-block-informer--hero---title h2 {
+	margin:0;
+	padding:5.353rem 0 0 0;
+	font-weight:700;
+	font-family:'Inter', sans-serif;
+	font-size:3.750rem;
+	line-height:4.500re;
+	color:#f1f1f1;
+}
+
+div.divider-pre-pilares {
+	height:9.538rem;
+}
+
+
+
+/*
+*	================================================================
+*	PILARES - STYLES - COMMON
+*
+*	================================================================
+*/
+
+
+
+div.pilar {
+	display:flex;
+	flex-direction:row;
+}
+
+
+
+div.pilar h4 {
+	font-size:3rem;
+	color:#c2cbce;
+	font-family:'Inter', sans-serif;
+	line-height:3.000rem;
+	padding:0;
+	margin-top:6.175rem;
+	margin-bottom:1.500rem;
+	margin-left:-1rem;
+}
+
+div.pilar.rev h4 {
+	margin-left:0.250rem;
+}
+
+div.pilar p {
+	padding:0;
+	font-family:'Inter', sans-serif;
+	font-size:1rem;
+	line-height:1.500rem;
+	color:#2d2d2d;
+	margin-left:-1rem;
+}
+
+div.pilar.rev p {
+	margin-left:0.250rem;
+}
+
+
+div.pilar div.dd-rounded-void-btn {
+	margin:4.600rem 0 0 -1rem;
+}
+
+div.pilar.rev div.dd-rounded-void-btn {
+	margin:4.600rem 0 0 0.250rem;
+}
+
+
+div.pilar div.pilar-artwork {
+	background-color:transparent;
+	background-repeat:no-repeat;
+	width:100%;
+	height:100%;
+
+
+
+}
+
+/* ==================================
+	UNIDAD
+====================================*/
+
+div.unidad {
+	padding-top:2.500rem !important;
+}
+
+div.unidad div.pilar-artwork {
+	background-image:url('../img/artwork/pilar-unidad.png');
+	background-position:80% 50%;
+	background-size:auto 90%;
+}
+
+/* ==================================
+	ORGANIZACI�N
+====================================*/
+
+div.organizacion {
+	padding-top:10.7000rem !important;
+}
+
+div.organizacion div.pilar-artwork {
+	background-image:url('../img/artwork/pilar-organizacion.png');
+	background-position:center left;
+}
+
+/* ==================================
+	CONSCIENCIA Y AMOR
+====================================*/
+
+div.consciencia {
+	padding-top:7.750rem;
+}
+
+div.consciencia div.pilar-artwork {
+	background-image:url('../img/artwork/pilar-consciencia.png');
+	background-position:75% 50%;
+	background-size:auto 90%;
+}
+
+
+/* ==================================
+	NO VIOLENCIA
+====================================*/
+
+div.no-violencia {
+	padding-top:10.700rem;
+}
+
+div.no-violencia div.pilar-artwork {
+	background-image:url('../img/artwork/pilar-no-violencia.png');
+	background-position:center left;
+}
+
+
+/* ==================================
+	CULTURA, CONOCIMIENTO Y SABIDURIA
+====================================*/
+
+div.cultura {
+	padding-top:10.700rem;
+}
+
+div.cultura div.pilar-artwork {
+	background-image:url('../img/artwork/pilar-cultura.png');
+	background-position:center right;
+	background-size:auto 85%;
+}
+
+/* ==================================
+	FEMINISMO
+====================================*/
+
+div.feminismo {
+	padding-top:10.750rem;
+}
+
+div.feminismo div.pilar-artwork {
+	background-image:url('../img/artwork/pilar-feminismo.png');
+	background-position:40% 50%;
+	background-size:auto 90%;
+}
+
+/* ==================================
+	ECOLOGIA
+====================================*/
+
+div.ecologia {
+	padding-top:10.700rem;
+}
+
+div.ecologia div.pilar-artwork {
+	background-image:url('../img/artwork/pilar-ecologia.png');
+	background-position:80% 50%;
+	background-size:auto 100%;
+}
+
+/* ==================================
+	ECONOMIA SOSTENIBLE
+====================================*/
+
+div.economia {
+	padding-top:10.750rem;
+}
+
+div.economia div.pilar-artwork {
+	background-image:url('../img/artwork/pilar-economia.png');
+	background-position:center center;
+	background-size:auto 85%;
+}
+
+/* ==================================
+	DEMOCRACIA DIRECTA
+====================================*/
+
+div.democracia {
+	padding-top:10.700rem;
+}
+
+div.democracia div.pilar-artwork {
+	background-image:url('../img/artwork/pilar-democracia.png');
+	background-position:80% 50%;
+	background-size:auto 90%;
+}
+
+/* ==================================
+	MUNICIPALISMO
+====================================*/
+
+div.municipalismo {
+	padding-top:10.750rem;
+}
+
+div.municipalismo div.pilar-artwork {
+	background-image:url('../img/artwork/pilar-municipalismo.png');
+	background-position:center center;
+	background-size:auto 80%;
+}
+
+
+/*	END OF PILARES STYLES
+*	================================================================ */
+
+
+
+
+
+
+/*
+*	================================================================
+*	STYLES FOR PAGES
+*
+*	================================================================
+*/
+
+
+/*	QU� ES PAGE
+*	================================================================ */
+
+div.quees-bg {
+	background-image:url('../img/backgrounds/quees-bg-top.png');
+	background-position:top right;
+	background-size:auto 100%;
+	height:87.250rem;
+} /* selector in combo with bg-holder and bootstrap .container-fluid (full page width) */
+
+div.quoted-gray-bg--frame-corner-bg {
+	position:absolute;
+	width:9.875rem;
+	height:22.125rem;
+	right:calc(-9.875rem / 2);
+	top:calc(-22.125rem / 2);
+	background:transparent url('../img/backgrounds/quees-frame-corner') no-repeat center center;
+}
+
+
+/*	PILARES PAGE
+*	================================================================ */
+
+div.pilares-holder {
+	max-width:57.500rem;
+	width:100%;
+	margin:0;
+	padding:0;
+	margin:0 auto;
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:flex-start;
+	align-items:flex-start;
+}
+
+div.pilares-holder>div {
+	margin:0 0 2.719rem 0;
+	font-family:'Inter', sans-serif;
+}
+
+div.pilares-holder>div div.pilares-holder--pilar---bg{
+	width:27.813rem;
+	height:30.063rem;
+	background-repeat:no-repeat;
+	background-color:#f1f1f1;
+	margin:0;
+	padding:0;
+}
+
+div.pilares-holder>div a {
+	display:inline-block;
+	width:100%;
+	height:100%;
+	color:#2d2d2d;
+}
+
+div.pilares-holder>div a span {
+
+	display:block;
+	margin:1.750rem 0 0 0;
+}
+
+div.pilares-holder>div:nth-child(even) {
+	margin:0 0 0 1.875rem;
+}
+
+div.pilares-holder>div:nth-child(even) a {
+	text-align:right;
+}
+
+
+
+/*	STYLES FOR PILARES ARTWORK
+*	================================================================ */
+
+div.pilar-unidad div.pilares-holder--pilar---bg{
+	background-image:url('../img/artwork/pilar-unidad.png');
+	background-position:350% -100%;
+}
+
+div.pilar-organizacion div.pilares-holder--pilar---bg{
+	background-image:url('../img/artwork/pilar-organizacion.png');
+	background-position:-40% -40%;
+}
+div.pilar-consciencia div.pilares-holder--pilar---bg{
+	background-image:url('../img/artwork/pilar-consciencia.png');
+	background-position:60% -60%;
+
+}
+
+div.pilar-no-violencia div.pilares-holder--pilar---bg{
+	background-image:url('../img/artwork/pilar-no-violencia.png');
+	background-position:60% 0;
+
+}
+
+div.pilar-cultura div.pilares-holder--pilar---bg{
+	background-image:url('../img/artwork/pilar-cultura.png');
+	background-position:120% -80%;
+
+}
+
+div.pilar-feminismo div.pilares-holder--pilar---bg{
+	background-image:url('../img/artwork/pilar-feminismo.png');
+	background-position:100% -40%;
+
+}
+
+div.pilar-ecologia div.pilares-holder--pilar---bg{
+	background-image:url('../img/artwork/pilar-ecologia.png');
+	background-position:0 -30%;
+
+}
+
+div.pilar-economia div.pilares-holder--pilar---bg{
+	background-image:url('../img/artwork/pilar-economia.png');
+	background-position:-1200% 100%;
+	background-size:auto 90%;
+
+}
+
+div.pilar-democracia div.pilares-holder--pilar---bg{
+	background-image:url('../img/artwork/pilar-democracia.png');
+	background-position:20% 250%;
+	background-size:auto 95%;
+
+}
+
+div.pilar-municipalismo div.pilares-holder--pilar---bg{
+	background-image:url('../img/artwork/pilar-municipalismo.png');
+	background-size:auto 80%;
+	background-position:-80% 95%;
+
+
+}
+
+/*	PILAR PAGE
+*	================================================================ */
+
+
+
+div.page-pilar-heading {
+	width:33.750rem;
+	height:38.938rem;
+	margin-right:0;
+	padding-right:0;
+
+}
+
+div.page-pilar-heading>div {
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+	display:block;
+	background-repeat:no-repeat;
+	background-color:transparent;
+}
+
+
+div.page-pilar-sidebar h4 {
+	margin:0 0 0 11.875rem;
+}
+
+div.page-pilar-sidebar ul {
+	list-style:none;
+	padding:0;
+	margin:0 0 0 11.875rem;
+	font-family:'Inter', sans-serif;
+	color:#2d2d2d;
+	line-height:1.500rem;
+	font-weight:700;
+}
+
+div.page-pilar-sidebar ul a {
+	color:inherit;
+}
+
+ul.page-pilar-paginacion {
+	list-style:none;
+	padding:0;
+	margin:0;
+	font-size:0.813rem;
+	letter-spacing:0.125rem;
+	text-transform:uppercase;
+	font-family:'Montserrat', sans-serif;
+	font-weight:700;
+	color:#c2cbce;
+}
+
+ul.page-pilar-paginacion li {
+	display:inline-block;
+	vertical-align:middle;
+	width:50%;
+}
+
+ul.page-pilar-paginacion li:last-of-type {
+	padding:0 0.75rem 0 0;
+	text-align:right;
+}
+
+ul.page-pilar-paginacion li a {
+	color:inherit;
+}
+
+ul.page-pilar-paginacion li:first-of-type a {
+	padding:0 0 0 1rem;
+}
+
+ul.page-pilar-paginacion li:last-of-type a {
+	padding:0 1rem 0 0;
+}
+
+
+
+
+
+/*	STYLES FOR PILARES PAGE HEADING ARTWORK
+*	================================================================ */
+
+div.page-pilar-heading--consciencia-bg {
+	background-image:url('../img/artwork/pilar-consciencia.png');
+	background-position:center center;
+}
